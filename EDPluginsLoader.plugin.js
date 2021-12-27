@@ -1,4 +1,9 @@
-//META{"name":"EDPluginsLoader"}*//
+/**
+ * @name EDpluginloader
+ * @author Juby210
+ * @version 1.0.1
+ * @description Loads ED plugins
+ */
 
 const { existsSync, writeFileSync, readdirSync, readFileSync } = require('fs')
 const { join } = require('path')
